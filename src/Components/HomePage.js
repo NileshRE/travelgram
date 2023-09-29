@@ -4,8 +4,10 @@ import FeedComponent from './FeedComponent'
 import GroupComponent from './GroupComponent'
 import PlacesComponent from './PlacesComponent'
 import MessageComponent from './MessageComponent'
+import Footer from './Foter'
 
-const Body = () => {
+
+const HomePage = () => {
   return (
     <div>
         <HeroComponent />
@@ -13,8 +15,9 @@ const Body = () => {
         <GroupComponent />
         <PlacesComponent />
         <MessageComponent />
+        <Footer />
     </div>
   )
 }
 
-export default Body
+export default HomePage

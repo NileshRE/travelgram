@@ -1,5 +1,6 @@
 import React from 'react'
 import { Images } from '../Utils/constants'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -9,13 +10,13 @@ const Header = () => {
       </div>
       <div className="flex items-center">
         <ul className="flex text-white z-10">
-          <li className="px-4 text-md">Travel Feed</li>
-          <li className="px-4 text-md">Groups</li>
-          <li className="px-4 text-md">Places</li>
-          <li className="px-4 text-md">Messages</li>
+          <li className="px-4 text-md"><Link to="/feed">Travel Feed </Link></li>
+          <li className="px-4 text-md"><Link to="/groupjoin">Groups</Link></li>
+          <li className="px-4 text-md"><Link to="/places">Places</Link></li>
+          <li className="px-4 text-md"><Link to="/messages">Messages</Link></li>
         </ul>
         <div>
-        <button className="px-4 py-2 mx-16 bg-blue-700 rounded-md text-white">Log in</button>
+        <button className="px-4 py-2 mx-16 bg-blue-700 rounded-md text-white"><Link to="/login">Log in</Link></button>
       </div>
       </div>
     </div>

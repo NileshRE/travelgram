@@ -1,15 +1,53 @@
-import Body from "./Components/Body";
+import React from "react";
+import { Outlet, createBrowserRouter} from "react-router-dom";
 import Header from "./Components/Header";
-import Footer from "./Components/Foter";
+import HomePage from "./Components/HomePage";
+import SignIn from "./Components/SignIn";
+import TravelFeed from "./Components/TravelFeed";
+import GroupJoin from "./Components/GroupJoin";
+import Places from "./Components/Places";
+import Messages from "./Components/Messages";
 
-function App() {
+const Applayout=()=> {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <Body />
-      <Footer />
+      <Outlet />
     </div>
   );
 }
 
-export default App;
+export const appRouter = createBrowserRouter([
+  {
+    path:"/",
+    element: <Applayout />,
+    children:[
+  {
+    path:"/",
+    element: <HomePage />
+  },
+  {
+    path:"/login",
+    element: <SignIn />
+  },
+  {
+    path:"/feed",
+    element: <TravelFeed />
+  },
+  {
+    path:"/groupjoin",
+    element: <GroupJoin />
+  },
+  {
+    path:"/places",
+    element: <Places />
+  },
+  {
+    path:"/messages",
+    element: <Messages />
+  }
+],
+},
+]);
+
+export default Applayout
