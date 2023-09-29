@@ -29,7 +29,7 @@ const MessageComponent = () => {
             </div>
         </div>
         <div>
-            <p className="font-lg w-[40%] mx-auto">Chat with group leaders to join, comment, like and follow other members in the community, get engaged and get going.</p>
+            <p className="font-xl font-medium w-[40%] mx-auto">Chat with group leaders to join, comment, like and follow other members in the community, get engaged and get going.</p>
          </div>
     </div>
   )

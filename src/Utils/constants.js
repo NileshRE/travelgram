@@ -9,7 +9,12 @@ export const Images = {
     trekk:"https://plus.unsplash.com/premium_photo-1693639906000-8ac310ebbc5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     camper:"https://images.unsplash.com/photo-1654913054631-b1106bade06b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     biker:"https://images.unsplash.com/photo-1576858574144-9ae1ebcf5ae5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-    food_streets:"https://images.unsplash.com/photo-1571633386230-cfb41acc5a03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+    monuments:"https://i.ibb.co/25Jg2nt/monuments.png",
+    cultures:"https://i.ibb.co/5v50yB0/cultures.png",
+    ghats:"https://i.ibb.co/JdrVq43/ghats.png",
+    adventure:"https://i.ibb.co/D5FJQtf/adventure.png",
+    markets:"https://i.ibb.co/D84fNXW/markets.png",
+    local:"https://i.ibb.co/5BCC8TH/delicacies.png",
     icon3:"https://i.ibb.co/dBfD8JP/icon3.png",
     icon2:"https://i.ibb.co/YbSWjM4/icon2.png",
     icon1:"https://i.ibb.co/2KjtNzq/icon1.png",
@@ -23,5 +28,11 @@ export const Ctgry = {
     food:"“The Foodies”",
     trek:"“The Trekkers”",
     camp:"“The Campers”",
-    bike:"“The Bikers”"
+    bike:"“The Bikers”",
+    monuments:"Historical Monuments",
+    cultures:"Cultures & Traditions",
+    ghats:"Ghats",
+    adventure:"Adventure Sports",
+    markets:"Flee Markets",
+    local:"Local Delicacies"
 }

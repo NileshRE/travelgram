@@ -11,6 +11,7 @@ const Body = () => {
         <HeroComponent />
         <FeedComponent />
         <GroupComponent />
+        <PlacesComponent />
         <MessageComponent />
     </div>
   )
