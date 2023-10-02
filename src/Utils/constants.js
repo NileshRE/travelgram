@@ -21,7 +21,10 @@ export const Images = {
     dp3:"https://i.ibb.co/vdSYv4Z/dp3.png",
     dp4:"https://i.ibb.co/xhbskXX/dp4.png",
     dp5:"https://i.ibb.co/ZmZD5j1/dp5.png",
-    dp6:"https://i.ibb.co/23PmRfd/dp6.png"
+    dp6:"https://i.ibb.co/23PmRfd/dp6.png",
+    post:"https://images.unsplash.com/photo-1600261669797-1bb7b27939be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2043&q=80",
+    hearticon:"https://thenounproject.com/api/private/icons/6138329/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0",
+    commenticon:"https://thenounproject.com/api/private/icons/5261875/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0"
 }
 
 export const Ctgry = {

@@ -1,12 +1,15 @@
 import React from 'react'
-import { Images } from '../Utils/constants'
+import FeedPostCard from './FeedPostCard'
 
 const TravelFeed = () => {
   return (
-    <div className="p-[12vw]">
-        <div>
-            <img src={Images.dp} alt="dp1"/>
-        </div>
+    <div className="pt-[20vh]">
+      <input className="w-6/12 border px-[2vw] py-[1vh] ml-32 rounded-md" type="text" placeholder="Search people"/>
+      <FeedPostCard />
+      <div>
+        <p>abcd</p>
+        <p>avcd</p>
+      </div>
     </div>
   )
 }
