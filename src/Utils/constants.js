@@ -27,6 +27,14 @@ export const Images = {
     commenticon:"https://thenounproject.com/api/private/icons/5261875/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0"
 }
 
+export const Picture=[
+    "https://images.unsplash.com/photo-1600261669797-1bb7b27939be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2043&q=80",
+    "https://images.unsplash.com/photo-1627938823193-fd13c1c867dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "https://images.unsplash.com/photo-1571536802807-30451e3955d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1840&q=80",
+    "https://images.unsplash.com/photo-1627938823193-fd13c1c867dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "https://images.unsplash.com/photo-1600261669797-1bb7b27939be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2043&q=80",   
+];
+
 export const Ctgry = {
     food:"“The Foodies”",
     trek:"“The Trekkers”",
@@ -39,3 +47,15 @@ export const Ctgry = {
     markets:"Flee Markets",
     local:"Local Delicacies"
 }
+
+export const Trends=[
+   {"Rank":1,"Location":"#Rishikesh","Name":"Ranbir"},
+    {"Rank":2,"Location":"#Uttrakhand","Name":"Virat"},
+    {"Rank":3,"Location":"#Jaipur","Name":"Sunny"},
+    {"Rank":4,"Location":"#Ujjain","Name":"Incredible India"},
+    {"Rank":5,"Location":"#Amazon Rainforest","Name":"Bear Grylls"}
+];
+
+export const Api_key = process.env.REACT_APP_API_KEY
+
+export const Unsplash_key= process.env.REACT_APP_UNSPLASH_KEY

@@ -7,14 +7,18 @@ import TravelFeed from "./Components/TravelFeed";
 import GroupJoin from "./Components/GroupJoin";
 import Places from "./Components/Places";
 import Messages from "./Components/Messages";
+import { Provider } from "react-redux";
+import Appstore from "./Utils/Appstore";
 
 const Applayout=()=> {
   return (
     <div className="App">
-      <Header />
-      <Outlet />
+    <Provider store={Appstore}>
+     <Header />
+     <Outlet />
+     </Provider>
     </div>
-  );
+  )
 }
 
 export const appRouter = createBrowserRouter([

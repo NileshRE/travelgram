@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="flex justify-between absolute w-full bg-gradient-to-b from-black z-10">
+    <div className="flex justify-between absolute w-full bg-black z-10">
       <div>
         <img src={Images.logo} alt='travelgram-logo'/>
       </div>
@@ -16,7 +16,7 @@ const Header = () => {
           <li className="px-4 text-md"><Link to="/messages">Messages</Link></li>
         </ul>
         <div>
-        <button className="px-4 py-2 mx-16 bg-blue-700 rounded-md text-white"><Link to="/login">Log in</Link></button>
+        <button className="px-4 py-2 mx-16 bg-[#04566E] rounded-md text-white"><Link to="/login">Log in</Link></button>
       </div>
       </div>
     </div>

@@ -1,12 +1,14 @@
 import React from 'react'
 
-const SignIn = () => {
+
+const SignIn = () => { 
   return (
-    <div>
+    <div className="pt-24">
       <form>
         <h1>SignIn</h1>
         
-      </form>    
+      </form>  
+      
     </div>
   )
 }
