@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { addNewPlaces } from '../../Utils/plcesSlice';
 import { Api_key} from '../../Utils/constants';
@@ -15,10 +15,10 @@ const usePlacesName = () => {
     const newPlaces = useSelector((store)=>store.places.newPlaces);
 
     const getPlaceDetails = async()=>{
-        const url=`https://api.geoapify.com/v2/places?categories=tourism&filter=place:5198bca6accb825340593e7f9c3358533e40f00103f901257cda1100000000920308446568726164756e&limit=20&apiKey=${Api_key}`;
+        const url=`https://api.geoapify.com/v2/places?categories=tourism&filter=place:51bae8a45a1678524059181d1f9642873240f00101f9010af49d0000000000c0020992030950756e652043697479&limit=20&apiKey=${Api_key}`;
         const data = await fetch(url, requestOptions)
         const json = await data.json();
-        const names = json?.features?.map((feature) => feature?.properties?.name);
+        const names = json?.features?.map((feature) => feature?.properties.name);
         dispatch(addNewPlaces(names))
     
         const picsList = [];

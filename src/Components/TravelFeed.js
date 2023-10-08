@@ -5,7 +5,7 @@ import { Trends } from '../Utils/constants'
 
 const TravelFeed = () => {
   return (
-    <div className="pt-[25vh]">
+    <div className="pt-8">
       <input className="w-6/12 border px-[2vw] py-[1vh] ml-32 rounded-md" type="text" placeholder="Search people"/>
       <div className="flex w-[60vw]">
         <div>

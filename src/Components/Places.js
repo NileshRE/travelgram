@@ -12,7 +12,7 @@ const Places = () => {
 
   return (
     <div>
-      <p className="font-semibold text-lg mb-6 pt-40 px-4">Places to Visit</p>
+      <p className="font-semibold text-lg mb-6 pt-8 px-4">Places to Visit in Pune</p>
     <div className="flex flex-wrap">
       {pics?.map((pic, index)=>(<PlaceListItem photo={pic} sitename={places[index]}/>))}
     </div>

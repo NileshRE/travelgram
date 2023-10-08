@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="flex justify-between absolute w-full bg-black z-10">
+    <div className="flex justify-between w-full bg-black z-10">
       <div>
         <img src={Images.logo} alt='travelgram-logo'/>
       </div>
