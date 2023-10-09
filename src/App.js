@@ -40,7 +40,7 @@ export const appRouter = createBrowserRouter([
   },
   {
     path:"/groupjoin",
-    element: <GroupJoin />
+    element: <GroupJoin />,
   },
   {
     path:"/places",
