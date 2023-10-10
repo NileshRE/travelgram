@@ -2,11 +2,12 @@ import React from 'react'
 import FeedPostCard from './FeedPostCard'
 import Trending from './Trending'
 import { Trends } from '../Utils/constants'
+import CreateandSearch from './CreateandSearch'
 
 const TravelFeed = () => {
   return (
     <div className="pt-8">
-      <input className="w-6/12 border px-[2vw] py-[1vh] ml-32 rounded-md" type="text" placeholder="Search people"/>
+      <CreateandSearch />
       <div className="flex w-[60vw]">
         <div>
         <FeedPostCard />

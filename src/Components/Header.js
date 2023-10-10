@@ -8,12 +8,13 @@ const Header = () => {
       <div>
         <img src={Images.logo} alt='travelgram-logo'/>
       </div>
-      <div className="flex items-center">
+      <div className="flex items-center font-medium">
         <ul className="flex text-white z-10">
-          <li className="px-4 text-md"><Link to="/feed">Travel Feed </Link></li>
-          <li className="px-4 text-md"><Link to="/groupjoin">Groups</Link></li>
-          <li className="px-4 text-md"><Link to="/places">Places</Link></li>
-          <li className="px-4 text-md"><Link to="/messages">Messages</Link></li>
+        <li className="px-5 text-md"><Link className="focus:text-blue-700 focus:text-lg" to="/">Home </Link></li>
+          <li className="px-5 text-md"><Link className="focus:text-blue-700 focus:text-lg" to="/feed">Travel Feed </Link></li>
+          <li className="px-5 text-md"><Link className="focus:text-blue-700 focus:text-lg" to="/groupjoin">Groups</Link></li>
+          <li className="px-5 text-md"><Link className="focus:text-blue-700 focus:text-lg" to="/places">Places</Link></li>
+          <li className="px-5 text-md"><Link className="focus:text-blue-700 focus:text-lg" to="/messages">Messages</Link></li>
         </ul>
         <div>
         <button className="px-4 py-2 mx-16 bg-[#04566E] rounded-md text-white"><Link to="/login">Log in</Link></button>

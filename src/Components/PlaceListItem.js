@@ -3,9 +3,9 @@ import React from 'react'
 const PlaceListItem = ({photo, sitename}) => {
   return (
     <div>
-      <div className="mb-2 mx-4 w-[320px] h-[auto]">
+      <div className="mb-4 mx-4 w-[25vw] h-[auto]">
       <img className="rounded-md" src={photo} alt='pics'/>
-      <p className="font-normal">{sitename}</p>
+      <p className="font-medium">{sitename}</p>
     </div>
   </div>
   )

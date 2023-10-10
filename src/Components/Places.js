@@ -11,9 +11,9 @@ const Places = () => {
   const pics = useSelector((store)=>store.places.pics)
 
   return (
-    <div>
-      <p className="font-semibold text-lg mb-6 pt-8 px-4">Places to Visit in Pune</p>
-    <div className="flex flex-wrap">
+    <div className="bg-gradient-to-b from-purple-800 via-yellow-800 to-orange-800 text-white">
+      <p className="font-semibold text-lg mb-12 pt-8 px-4">Places to Visit in Mumbai</p>
+    <div className="flex flex-wrap justify-center">
       {pics?.map((pic, index)=>(<PlaceListItem photo={pic} sitename={places[index]}/>))}
     </div>
     </div>
