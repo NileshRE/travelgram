@@ -1,10 +1,13 @@
 import React from 'react'
 import { Images } from '../Utils/constants'
+import { useSelector } from 'react-redux'
+import lang from '../Utils/LanguageConstants'
 
 const FeedComponent = () => {
+    const langkey = useSelector((store)=>store.config.lang)
   return (
     <div className="bg-gradient-to-tr from-blue-500 via-pink-500 to-yellow-500 text-white">
-    <p className="text-2xl font-semibold py-10 px-12">Catch-up with others</p>
+    <p className="text-2xl font-semibold py-10 px-12">{lang[langkey].feedHeading}</p>
     <div className="flex mx-16">
     <div className="w-[25vw]">
         <div className="py-12">

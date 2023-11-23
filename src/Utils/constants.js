@@ -104,3 +104,6 @@ export const Loc ={
     Loc4:"Delhi, Agra, Jaipur, Lucknow",
     Loc5:"New Delhi, Agra, Jaipur"
 }
+
+
+export const SuppLang = [{identifier:"en", name:"English"},{identifier:"hindi", name:"Hindi"},{identifier:"spanish", name:"Spanish"}]

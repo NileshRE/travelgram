@@ -1,15 +1,16 @@
-import React from "react";
+import React, {lazy, Suspense} from "react";
 import { Outlet, createBrowserRouter} from "react-router-dom";
 import Header from "./Components/Header";
 import HomePage from "./Components/HomePage";
 import SignIn from "./Components/SignIn";
 import TravelFeed from "./Components/TravelFeed";
-import GroupJoin from "./Components/GroupJoin";
-import Places from "./Components/Places";
 import Messages from "./Components/Messages";
 import { Provider } from "react-redux";
 import Appstore from "./Utils/Appstore";
 
+
+const Place = lazy(() => import("./Components/Places.js"));
+const Groups = lazy(()=> import("./Components/GroupJoin.js"))
 const Applayout=()=> {
   return (
     <div className="App">
@@ -40,11 +41,18 @@ export const appRouter = createBrowserRouter([
   },
   {
     path:"/groupjoin",
-    element: <GroupJoin />,
+    element: (<Suspense fallback={<h2>Loading...</h2>}>
+    <Groups />
+      </Suspense>
+    )
   },
   {
     path:"/places",
-    element: <Places />
+    element: (
+    <Suspense fallback={<h2>Loading...</h2>}>
+    <Place />
+      </Suspense>
+    )
   },
   {
     path:"/messages",
